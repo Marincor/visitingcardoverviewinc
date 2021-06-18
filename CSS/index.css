@@ -98,3 +98,92 @@ main {
   height: 100%;
   opacity: 55%;
 }
+
+
+/* mobile */
+
+@media  screen and (max-width:375px) {
+
+    .caixa-principal {
+    
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        height: 90%;
+        margin-left: 5%;
+        
+ 
+    }
+
+    /* caixa 1 */
+
+    .caixa1 {
+
+        width: 100%;
+        height: 50%;
+        padding-bottom: 30px;
+
+    }
+
+    .caixa1 h1 {
+
+        font-size: 0.8em;
+        text-align: center;
+        padding: 0 28% 0 28%;
+        line-height: 150%;
+
+
+    }
+
+    .caixa1 p {
+
+        font-size: 0.5em;
+        text-align: center;
+        padding: 0 27% 0 27%;
+    }
+
+    .caixa-quantidade {
+        margin-top:10%;
+        flex-direction: column;
+
+    }
+
+    .caixa-quantidade h2 {
+        margin-top: ;
+        font-size: 0.5em;
+        text-align: center;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .conteudo-template, .conteudo-inc, .conteudo-qs {
+
+        margin:0;
+        padding: 0 8% 0 0;
+    
+        }
+
+        .caixa-quantidade p {
+
+            text-align: center;
+            padding-left: 35%;
+        }
+
+
+        /* caixa 2 */
+
+    .caixa2 {
+
+        width: 100%;
+        height: 50%;
+      
+    }
+
+    .caixa2 img {
+
+        width: 5%;
+    }
+    
+    
+    
+}

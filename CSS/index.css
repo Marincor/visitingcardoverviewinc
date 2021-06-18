@@ -5,8 +5,20 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  color: white;
 }
 
+main h6 {
+    display: absolute;
+    margin-top: 44%;
+    font-size: 0.8em;
+    color: white;
+}
+
+main a {
+
+    color: white;
+}
 /* bloco grande */
 
 .caixa-principal {
@@ -102,7 +114,14 @@ main {
 /* mobile */
 
 @media screen and (max-width: 375px) {
-  .caixa-principal {
+  
+    main h6 {
+
+       
+        display: none;
+    }
+  
+    .caixa-principal {
     display: flex;
     flex-direction: column;
     width: 100%;

@@ -215,3 +215,12 @@ main {
     }
     
 }
+
+@media screen and (max-width: 1087px ) {
+
+    .caixa-principal {
+
+        font-size: 0.8rem;
+    }
+
+}
